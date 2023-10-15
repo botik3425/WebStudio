@@ -26,11 +26,17 @@
     background-color: var(--tur);
     color: var(--in);
 }
-:root {--turip: #2196F3}
-:root {--pi: #F5F4FA}
-:root {--in: #FFFFFF}
-:root {--pirut: #2F303A}
-:root {--tip: #FFFFFF99}
-:root {--pit: #757575}
-:root {--hd: #212121}
-:root {--tur: #2196F3}
+.dh{
+    color: var(--hd);
+}
+:root {
+    --turip: #2196F3;
+    --pi: #F5F4FA;
+    --in: #FFFFFF;
+    --pirut: #2F303A;
+    --tip: #FFFFFF99;
+    --pit: #757575;
+    --hd: #212121;
+    --tur: #2196F3;
+}
+
