@@ -3,9 +3,19 @@
 }
 .ip{
     background-color:var(--turip);
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 24px;
+    text-align: center;
 }
 .pi{
     background-color: var(--pi);
+    border-radius: 4px;
+    font-family: Roboto;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: center;
 }
 .in{
     color: var(--in);
