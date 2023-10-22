@@ -1,7 +1,7 @@
-.turip{
+.navigation-blue,.down-blue{
     color:var(--turip);
 }
-.ip{
+.items-item-blue{
     background-color:var(--turip);
     border-radius: 4px;
     font-size: 16px;
@@ -9,7 +9,7 @@
     line-height: 24px;
     text-align: center;
 }
-.pi{
+.items-item-black-2{
     background-color: var(--pi);
     border-radius: 4px;
     font-family: Roboto;
@@ -17,23 +17,23 @@
     font-size: 16px;
     text-align: center;
 }
-.in{
+.down-white,.item-white{
     color: var(--in);
 }
-.pirut{
+.down{
     background-color: var(--pirut);
 }
-.tip{
+.down-grey{
     color: var(--tip);
 }
-.pit{
+.navigation-grey{
     color: var(--pit);
 }
-.hd{
+.navigation-black,.products-list-item-black,.item-grey{
     color: var(--hd);
 }
-.tur{
-    background-color: var(--tur);
+.k{
+    background-color: var(--turip);
     color: var(--in);
 }
 :root {--turip: #2196F3}
@@ -43,4 +43,3 @@
 :root {--tip: #FFFFFF99}
 :root {--pit: #757575}
 :root {--hd: #212121}
-:root {--tur: #2196F3}
