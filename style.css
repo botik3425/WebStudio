@@ -1,4 +1,4 @@
-.navigation-blue,.down-blue{
+.item-blue,.down-blue{
     color:var(--turip);
 }
 .items-item-blue{
@@ -17,7 +17,7 @@
     font-size: 16px;
     text-align: center;
 }
-.down-white,.item-white{
+.down-white,.item-white,.div-white{
     color: var(--in);
 }
 .down{
@@ -26,15 +26,18 @@
 .down-grey{
     color: var(--tip);
 }
-.navigation-grey{
+.item-grey,.products-item-grey{
     color: var(--pit);
 }
-.navigation-black,.products-list-item-black,.item-grey{
+.item-black,.products-list-item-black{
     color: var(--hd);
 }
-.k{
+.div-blue{
     background-color: var(--turip);
     color: var(--in);
+}
+.center-div{
+    background-color: var(--pirut);
 }
 :root {--turip: #2196F3}
 :root {--pi: #F5F4FA}
