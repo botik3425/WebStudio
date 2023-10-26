@@ -1,24 +1,70 @@
-.item-blue,.down-blue{
+.item-blue{
     color:var(--turip);
+    font-size: 26px;
+    font-family: Raleway;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    word-wrap: break-word
+}
+.down-blue{
+    color: #2196F3;
+     font-size: 26px;
+     font-family: Raleway;
+     font-weight: 700;
+     letter-spacing: 0.78px;
+     word-wrap: break-word
+}
+.item-blue2{
+    color: #2196F3;
+     font-size: 14px;
+     font-family: Roboto;
+     font-weight: 500;
+     letter-spacing: 0.28px;
+     word-wrap: break-word
 }
 .items-item-blue{
     background-color:var(--turip);
     border-radius: 4px;
     font-size: 16px;
     font-family: Roboto;
-    line-height: 24px;
+    line-height: 1.5;
     text-align: center;
 }
 .items-item-black-2{
     background-color: var(--pi);
     border-radius: 4px;
     font-family: Roboto;
-    line-height: 24px;
+    line-height: 1.5;
     font-size: 16px;
     text-align: center;
 }
-.down-white,.item-white,.div-white{
+.down-white{
+ color: var(--in);
+ font-size: 14px;
+ font-family: Roboto;
+ font-weight: 400;
+ line-height: 1.714285714285714;
+ letter-spacing: 0.42px;
+ word-wrap: break-word
+}
+.div-white{
     color: var(--in);
+     font-size: 44px;
+     font-family: Roboto;
+     font-weight: 900;
+     text-transform: uppercase;
+     line-height: 1.363636363636364;
+     letter-spacing: 2.64px;
+     word-wrap: break-word
+}
+.item-white{
+    color: var(--in);
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 1.714285714285714;
+    letter-spacing: 0.42px;
+    word-wrap: break-word
 }
 .down{
     background-color: var(--pirut);
@@ -26,18 +72,98 @@
 .down-grey{
     color: var(--tip);
 }
-.item-grey,.products-item-grey{
+.item-grey{
     color: var(--pit);
 }
-.item-black,.products-list-item-black{
+.products-item-grey{
+    color: var(--pit);
+     font-size: 16px;
+     font-family: Roboto;
+     font-weight: 400;
+     line-height: 1.875;
+     letter-spacing: 0.48px;
+     word-wrap: break-word
+}
+.item-black{
     color: var(--hd);
+ font-size: 14px;
+ font-family: Roboto;
+ font-weight: 500;
+ letter-spacing: 0.28px;
+ word-wrap: break-word
+}
+.div-black{
+color: var(--hd);
+ font-size: 36px;
+ font-family: Roboto;
+ font-weight: 700;
+ letter-spacing: 1.08px;
+ word-wrap: break-word
+}
+.div-black2{
+    color: var(--hd);
+     font-size: 36px;
+     font-family: Roboto;
+     font-weight: 700;
+     letter-spacing: 1.08px;
+     word-wrap: break-word
+}
+.products-item-black{
+    color: var(--hd);
+     font-size: 18px;
+     font-family: Roboto;
+     font-weight: 700;
+     line-height: 2;
+     letter-spacing: 1.08px;
+     word-wrap: break-word
+}
+.item-grey3{
+color: var(--pit);
+ font-size: 14px;
+ font-family: Roboto;
+ font-weight: 400;
+ line-height: 1.714285714285714;
+ letter-spacing: 0.42px;
+ word-wrap: break-word
+}
+.item-black3{
+color: var(--hd);
+ font-size: 14px;
+ font-family: Roboto;
+ font-weight: 700;
+ text-transform: uppercase;
+ letter-spacing: 0.42px;
+ word-wrap: break-word
+}
+.item-black2{
+ color: var(--hd);
+ font-size: 16px;
+ font-family: Roboto;
+ font-weight: 500;
+ letter-spacing: 0.48px;
+ word-wrap: break-word
 }
 .div-blue{
     background-color: var(--turip);
     color: var(--in);
+ font-size: 16px;
+ font-family: Roboto;
+ font-weight: 700;
+ line-height: 1.875;
+ letter-spacing: 0.96px;
+ word-wrap: break-word
 }
 .center-div{
     background-color: var(--pirut);
+}
+.item-grey2{
+color: var(--tip);
+ font-size: 14px;
+ font-family: Roboto;
+ font-weight: 400;
+ line-height: 1.714285714285714;
+ letter-spacing: 0.42px;
+ word-wrap: break-word
 }
 :root {--turip: #2196F3}
 :root {--pi: #F5F4FA}
