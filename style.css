@@ -9,8 +9,8 @@
     letter-spacing: 0.78px;
     word-wrap: break-word
 }
-.down-blue{
-    color: #2196F3;
+.logo-blue{
+    color: var(--turip);
      font-size: 26px;
      font-family: Raleway;
      font-weight: 700;
@@ -18,20 +18,21 @@
      word-wrap: break-word
 }
 .item-blue2{
-    color: #2196F3;
+    color: var(--turip);
      font-size: 14px;
      font-weight: 500;
      letter-spacing: 0.28px;
      word-wrap: break-word
 }
-.items-item-blue{
+.item-white2{
     background-color:var(--turip);
+    color: var(--in);
     border-radius: 4px;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
 }
-.items-item-black-2{
+.item-black5{
     background-color: var(--pi);
     border-radius: 4px;
     line-height: 1.5;
@@ -42,16 +43,25 @@
  color: var(--in);
  font-size: 14px;
  font-weight: 400;
- line-height: 1.714285714285714;
+ line-height: 1.71;
  letter-spacing: 0.42px;
- word-wrap: break-word
+ word-wrap: break-word;
+ font-style: normal;
+}
+.logo-white{
+    color: var(--in);
+font-size: 26px;
+font-family: Raleway;
+font-weight: 700;
+letter-spacing: 0.78px;
+word-wrap: break-word
 }
 .div-white{
     color: var(--in);
      font-size: 44px;
      font-weight: 900;
      text-transform: uppercase;
-     line-height: 1.363636363636364;
+     line-height: 1.36;
      letter-spacing: 2.64px;
      word-wrap: break-word
 }
@@ -59,24 +69,29 @@
     color: var(--in);
     font-size: 14px;
     font-weight: 400;
-    line-height: 1.714285714285714;
+    line-height: 1.71;
     letter-spacing: 0.42px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    font-style: normal;
 }
-.down{
+.all-down{
     background-color: var(--pirut);
 }
 .down-grey{
     color: var(--tip);
 }
-.item-grey{
+.item-grey4{
     color: var(--pit);
+    font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.48px;
+word-wrap: break-word
 }
-.products-item-grey{
+.product-grey{
     color: var(--pit);
      font-size: 16px;
      font-weight: 400;
-     line-height: 1.875;
+     line-height: 1.88;
      letter-spacing: 0.48px;
      word-wrap: break-word
 }
@@ -87,21 +102,28 @@
  letter-spacing: 0.28px;
  word-wrap: break-word
 }
-.div-black{
+.item-grey:hover{
+    color: var(--turip);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    word-wrap: break-word
+}
+.item-black:hover{
+    color: var(--turip);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    word-wrap: break-word
+}
+.div4-black,.div3-black{
 color: var(--hd);
  font-size: 36px;
  font-weight: 700;
  letter-spacing: 1.08px;
  word-wrap: break-word
 }
-.div-black2{
-    color: var(--hd);
-     font-size: 36px;
-     font-weight: 700;
-     letter-spacing: 1.08px;
-     word-wrap: break-word
-}
-.products-item-black{
+.product-black{
     color: var(--hd);
      font-size: 18px;
      font-weight: 700;
@@ -113,7 +135,7 @@ color: var(--hd);
 color: var(--pit);
  font-size: 14px;
  font-weight: 400;
- line-height: 1.714285714285714;
+ line-height: 1.71;
  letter-spacing: 0.42px;
  word-wrap: break-word
 }
@@ -137,7 +159,7 @@ color: var(--hd);
     color: var(--in);
  font-size: 16px;
  font-weight: 700;
- line-height: 1.875;
+ line-height: 1.88;
  letter-spacing: 0.96px;
  word-wrap: break-word
 }
@@ -148,9 +170,24 @@ color: var(--hd);
 color: var(--tip);
  font-size: 14px;
  font-weight: 400;
- line-height: 1.714285714285714;
+ line-height: 1.71;
  letter-spacing: 0.42px;
  word-wrap: break-word
+}
+.logo-black{
+    color: var(--hd);
+font-size: 26px;
+font-family: Raleway;
+font-weight: 700;
+letter-spacing: 0.78px;
+word-wrap: break-word
+}
+.item-grey{
+    color: var(--pit);
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+word-wrap: break-word
 }
 :root {--turip: #2196F3}
 :root {--pi: #F5F4FA}
