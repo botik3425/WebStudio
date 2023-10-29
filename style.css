@@ -1,14 +1,8 @@
 .all{
     font-family: Roboto;
 }
-.item-blue{
-    color:var(--turip);
-    font-size: 26px;
-    font-family: Raleway;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    word-wrap: break-word
-}
+
+/*index Navigation */
 .logo-blue{
     color: var(--turip);
      font-size: 26px;
@@ -17,163 +11,7 @@
      letter-spacing: 0.78px;
      word-wrap: break-word
 }
-.item-blue2{
-    color: var(--turip);
-     font-size: 14px;
-     font-weight: 500;
-     letter-spacing: 0.28px;
-     word-wrap: break-word
-}
-.item-white2{
-    background-color:var(--turip);
-    color: var(--in);
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-}
-.item-black5{
-    background-color: var(--pi);
-    border-radius: 4px;
-    line-height: 1.5;
-    font-size: 16px;
-    text-align: center;
-}
-.down-white{
- color: var(--in);
- font-size: 14px;
- font-weight: 400;
- line-height: 1.71;
- letter-spacing: 0.42px;
- word-wrap: break-word;
- font-style: normal;
-}
-.logo-white{
-    color: var(--in);
-font-size: 26px;
-font-family: Raleway;
-font-weight: 700;
-letter-spacing: 0.78px;
-word-wrap: break-word
-}
-.div-white{
-    color: var(--in);
-     font-size: 44px;
-     font-weight: 900;
-     text-transform: uppercase;
-     line-height: 1.36;
-     letter-spacing: 2.64px;
-     word-wrap: break-word
-}
-.item-white{
-    color: var(--in);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.42px;
-    word-wrap: break-word;
-    font-style: normal;
-}
-.all-down{
-    background-color: var(--pirut);
-}
-.down-grey{
-    color: var(--tip);
-}
-.item-grey4{
-    color: var(--pit);
-    font-size: 16px;
-font-weight: 400;
-letter-spacing: 0.48px;
-word-wrap: break-word
-}
-.product-grey{
-    color: var(--pit);
-     font-size: 16px;
-     font-weight: 400;
-     line-height: 1.88;
-     letter-spacing: 0.48px;
-     word-wrap: break-word
-}
-.item-black{
-    color: var(--hd);
- font-size: 14px;
- font-weight: 500;
- letter-spacing: 0.28px;
- word-wrap: break-word
-}
-.item-grey:hover{
-    color: var(--turip);
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
-    word-wrap: break-word
-}
-.item-black:hover{
-    color: var(--turip);
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 0.28px;
-    word-wrap: break-word
-}
-.div4-black,.div3-black{
-color: var(--hd);
- font-size: 36px;
- font-weight: 700;
- letter-spacing: 1.08px;
- word-wrap: break-word
-}
-.product-black{
-    color: var(--hd);
-     font-size: 18px;
-     font-weight: 700;
-     line-height: 2;
-     letter-spacing: 1.08px;
-     word-wrap: break-word
-}
-.item-grey3{
-color: var(--pit);
- font-size: 14px;
- font-weight: 400;
- line-height: 1.71;
- letter-spacing: 0.42px;
- word-wrap: break-word
-}
-.item-black3{
-color: var(--hd);
- font-size: 14px;
- font-weight: 700;
- text-transform: uppercase;
- letter-spacing: 0.42px;
- word-wrap: break-word
-}
-.item-black2{
- color: var(--hd);
- font-size: 16px;
- font-weight: 500;
- letter-spacing: 0.48px;
- word-wrap: break-word
-}
-.div-blue{
-    background-color: var(--turip);
-    color: var(--in);
- font-size: 16px;
- font-weight: 700;
- line-height: 1.88;
- letter-spacing: 0.96px;
- word-wrap: break-word
-}
-.center-div{
-    background-color: var(--pirut);
-}
-.item-grey2{
-color: var(--tip);
- font-size: 14px;
- font-weight: 400;
- line-height: 1.71;
- letter-spacing: 0.42px;
- word-wrap: break-word
-}
+
 .logo-black{
     color: var(--hd);
 font-size: 26px;
@@ -182,13 +20,190 @@ font-weight: 700;
 letter-spacing: 0.78px;
 word-wrap: break-word
 }
-.item-grey{
+
+.item-page{
+    color: var(--hd);
+ font-size: 14px;
+ font-weight: 500;
+ letter-spacing: 0.28px;
+ word-wrap: break-word
+}
+
+.item-tel,.item-email{
     color: var(--pit);
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
 word-wrap: break-word
 }
+
+.item-tel:hover{
+    color: var(--turip);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    word-wrap: break-word
+}
+
+.item-email:hover{
+    color: var(--turip);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    word-wrap: break-word
+}
+
+.item-page:hover{
+    color: var(--turip);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    word-wrap: break-word
+}
+/* index Hero */
+.heroindex-whiteslog{
+    color: var(--in);
+     font-size: 44px;
+     font-weight: 900;
+     text-transform: uppercase;
+     line-height: 1.36;
+     letter-spacing: 2.64px;
+     word-wrap: break-word
+}
+
+.heroindex-button{
+    background-color: var(--turip);
+    color: var(--in);
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 1.88;
+ letter-spacing: 0.96px;
+ word-wrap: break-word
+}
+
+.center-heroindex{
+    background-color: var(--pirut);
+}
+/*index Pluses */
+.item-greytext{
+    color: var(--pit);
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 1.71;
+     letter-spacing: 0.42px;
+     word-wrap: break-word
+}
+
+.item-blackslog{
+    color: var(--hd);
+     font-size: 14px;
+     font-weight: 700;
+     text-transform: uppercase;
+     letter-spacing: 0.42px;
+     word-wrap: break-word
+}
+/*index WWD(what we do) */
+.wwd-slog{
+    color: var(--hd);
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    word-wrap: break-word
+}
+/*index Our team */
+.ourteam-slog{
+    color: var(--hd);
+     font-size: 36px;
+     font-weight: 700;
+     letter-spacing: 1.08px;
+     word-wrap: break-word
+}
+
+.item-slog{
+    color: var(--hd);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    word-wrap: break-word
+}
+
+.item-text{
+    color: var(--pit);
+    font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.48px;
+word-wrap: break-word;
+}
+/*index Basement */
+.logo-white{
+    color: var(--in);
+font-size: 26px;
+font-family: Raleway;
+font-weight: 700;
+letter-spacing: 0.78px;
+word-wrap: break-word
+}
+
+.item-adress{
+    color: var(--in);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    word-wrap: break-word;
+    font-style: normal;
+}
+
+.all-basement{
+    background-color: var(--pirut);
+}
+
+.item-tele,.item-mail{
+    color: var(--tip);
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 1.71;
+     letter-spacing: 0.42px;
+     word-wrap: break-word
+}
+/* portfolio Hero */
+.item-whitetag{
+    background-color:var(--turip);
+    color: var(--in);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.item-blacktag{
+    background-color: var(--pi);
+    border-radius: 4px;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*portfolio LOP(list of products) */
+.product-tag{
+    color: var(--pit);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.88;
+     letter-spacing: 0.48px;
+     word-wrap: break-word
+}
+
+.product-slog{
+    color: var(--hd);
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 2;
+     letter-spacing: 1.08px;
+     word-wrap: break-word
+}
+/* portfolio Basement */
+
 :root {
     --turip: #2196F3;
     --pi: #F5F4FA;
