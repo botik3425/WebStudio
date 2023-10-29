@@ -4,7 +4,7 @@
      font-size: 26px;
      font-family: Raleway;
      font-weight: 700;
-     letter-spacing: 0.78px;
+     letter-spacing: 0.03em;
      word-wrap: break-word
 }
 
@@ -13,47 +13,42 @@
 font-size: 26px;
 font-family: Raleway;
 font-weight: 700;
-letter-spacing: 0.78px;
+letter-spacing: 0.03em;
 word-wrap: break-word
 }
 
 .item-page{
     color: var(--hd);
- font-size: 14px;
  font-weight: 500;
- letter-spacing: 0.28px;
+ letter-spacing: 0.02em;
  word-wrap: break-word
 }
 
 .item-tel,.item-email{
     color: var(--pit);
-font-size: 14px;
 font-weight: 500;
-letter-spacing: 0.28px;
+letter-spacing: 0.02em;
 word-wrap: break-word
 }
 
 .item-tel:hover{
     color: var(--turip);
-    font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0.28px;
+    letter-spacing: 0.02em;
     word-wrap: break-word
 }
 
 .item-email:hover{
     color: var(--turip);
-    font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0.28px;
+    letter-spacing: 0.02em;
     word-wrap: break-word
 }
 
 .item-page:hover{
     color: var(--turip);
-    font-size: 14px;
     font-weight: 500;
-    letter-spacing: 0.28px;
+    letter-spacing: 0.02em;
     word-wrap: break-word
 }
 /* index Hero */
@@ -63,7 +58,7 @@ word-wrap: break-word
      font-weight: 900;
      text-transform: uppercase;
      line-height: 1.36;
-     letter-spacing: 2.64px;
+     letter-spacing: 0.06em;
      word-wrap: break-word
 }
 
@@ -73,7 +68,7 @@ word-wrap: break-word
  font-size: 16px;
  font-weight: 700;
  line-height: 1.88;
- letter-spacing: 0.96px;
+ letter-spacing: 0.06em;
  word-wrap: break-word
 }
 
@@ -83,19 +78,17 @@ word-wrap: break-word
 /*index Pluses */
 .item-greytext{
     color: var(--pit);
-     font-size: 14px;
      font-weight: 400;
      line-height: 1.71;
-     letter-spacing: 0.42px;
+     letter-spacing: 0.03em;
      word-wrap: break-word
 }
 
 .item-blackslog{
     color: var(--hd);
-     font-size: 14px;
      font-weight: 700;
      text-transform: uppercase;
-     letter-spacing: 0.42px;
+     letter-spacing: 0.03em;
      word-wrap: break-word
 }
 /*index WWD(what we do) */
@@ -103,7 +96,7 @@ word-wrap: break-word
     color: var(--hd);
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: 1.08px;
+    letter-spacing: 0.03em;
     word-wrap: break-word
 }
 /*index Our team */
@@ -111,7 +104,7 @@ word-wrap: break-word
     color: var(--hd);
      font-size: 36px;
      font-weight: 700;
-     letter-spacing: 1.08px;
+     letter-spacing: 0.03em;
      word-wrap: break-word
 }
 
@@ -119,7 +112,7 @@ word-wrap: break-word
     color: var(--hd);
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 0.48px;
+    letter-spacing: 0.03em;
     word-wrap: break-word
 }
 
@@ -127,7 +120,7 @@ word-wrap: break-word
     color: var(--pit);
     font-size: 16px;
 font-weight: 400;
-letter-spacing: 0.48px;
+letter-spacing: 0.03em;
 word-wrap: break-word;
 }
 /*index Basement */
@@ -136,16 +129,15 @@ word-wrap: break-word;
 font-size: 26px;
 font-family: Raleway;
 font-weight: 700;
-letter-spacing: 0.78px;
+letter-spacing: 0.03em;
 word-wrap: break-word
 }
 
 .item-adress{
     color: var(--in);
-    font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
-    letter-spacing: 0.42px;
+    letter-spacing: 0.03em;
     word-wrap: break-word;
     font-style: normal;
 }
@@ -156,9 +148,8 @@ word-wrap: break-word
 
 .item-tele,.item-mail{
     color: var(--tip);
-     font-size: 14px;
      font-weight: 400;
      line-height: 1.71;
-     letter-spacing: 0.42px;
+     letter-spacing: 0.03em;
      word-wrap: break-word
 }
