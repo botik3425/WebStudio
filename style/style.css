@@ -1,0 +1,215 @@
+.all{
+    font-family: Roboto;
+}
+
+/*index Navigation */
+.logo-blue{
+    color: var(--turip);
+     font-size: 26px;
+     font-family: Raleway;
+     font-weight: 700;
+     letter-spacing: 0.78px;
+     word-wrap: break-word
+}
+
+.logo-black{
+    color: var(--hd);
+font-size: 26px;
+font-family: Raleway;
+font-weight: 700;
+letter-spacing: 0.78px;
+word-wrap: break-word
+}
+
+.item-page{
+    color: var(--hd);
+ font-size: 14px;
+ font-weight: 500;
+ letter-spacing: 0.28px;
+ word-wrap: break-word
+}
+
+.item-tel,.item-email{
+    color: var(--pit);
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0.28px;
+word-wrap: break-word
+}
+
+.item-tel:hover{
+    color: var(--turip);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    word-wrap: break-word
+}
+
+.item-email:hover{
+    color: var(--turip);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    word-wrap: break-word
+}
+
+.item-page:hover{
+    color: var(--turip);
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    word-wrap: break-word
+}
+/* index Hero */
+.heroindex-whiteslog{
+    color: var(--in);
+     font-size: 44px;
+     font-weight: 900;
+     text-transform: uppercase;
+     line-height: 1.36;
+     letter-spacing: 2.64px;
+     word-wrap: break-word
+}
+
+.heroindex-button{
+    background-color: var(--turip);
+    color: var(--in);
+ font-size: 16px;
+ font-weight: 700;
+ line-height: 1.88;
+ letter-spacing: 0.96px;
+ word-wrap: break-word
+}
+
+.center-heroindex{
+    background-color: var(--pirut);
+}
+/*index Pluses */
+.item-greytext{
+    color: var(--pit);
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 1.71;
+     letter-spacing: 0.42px;
+     word-wrap: break-word
+}
+
+.item-blackslog{
+    color: var(--hd);
+     font-size: 14px;
+     font-weight: 700;
+     text-transform: uppercase;
+     letter-spacing: 0.42px;
+     word-wrap: break-word
+}
+/*index WWD(what we do) */
+.wwd-slog{
+    color: var(--hd);
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    word-wrap: break-word
+}
+/*index Our team */
+.ourteam-slog{
+    color: var(--hd);
+     font-size: 36px;
+     font-weight: 700;
+     letter-spacing: 1.08px;
+     word-wrap: break-word
+}
+
+.item-slog{
+    color: var(--hd);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+    word-wrap: break-word
+}
+
+.item-text{
+    color: var(--pit);
+    font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.48px;
+word-wrap: break-word;
+}
+/*index Basement */
+.logo-white{
+    color: var(--in);
+font-size: 26px;
+font-family: Raleway;
+font-weight: 700;
+letter-spacing: 0.78px;
+word-wrap: break-word
+}
+
+.item-adress{
+    color: var(--in);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.42px;
+    word-wrap: break-word;
+    font-style: normal;
+}
+
+.all-basement{
+    background-color: var(--pirut);
+}
+
+.item-tele,.item-mail{
+    color: var(--tip);
+     font-size: 14px;
+     font-weight: 400;
+     line-height: 1.71;
+     letter-spacing: 0.42px;
+     word-wrap: break-word
+}
+/* portfolio Hero */
+.item-whitetag{
+    background-color:var(--turip);
+    color: var(--in);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.item-blacktag{
+    background-color: var(--pi);
+    border-radius: 4px;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*portfolio LOP(list of products) */
+.product-tag{
+    color: var(--pit);
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 1.88;
+     letter-spacing: 0.48px;
+     word-wrap: break-word
+}
+
+.product-slog{
+    color: var(--hd);
+     font-size: 18px;
+     font-weight: 700;
+     line-height: 2;
+     letter-spacing: 1.08px;
+     word-wrap: break-word
+}
+/* portfolio Basement */
+
+:root {
+    --turip: #2196F3;
+    --pi: #F5F4FA;
+    --in: #FFFFFF;
+    --pirut: #2F303A;
+    --tip: #FFFFFF99;
+    --pit: #757575;
+    --hd: #212121
+}
