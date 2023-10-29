@@ -1,15 +1,16 @@
 /* portfolio Hero */
-.item-whitetag{
-    background-color:var(--turip);
-    color: var(--in);
+.heroport-blacktag:hover{
+    background-color:var(--blue);
+    color: var(--true-white);
     border-radius: 4px;
     font-size: 16px;
     line-height: 1.5;
     text-align: center;
+    cursor: pointer;
 }
 
-.item-blacktag{
-    background-color: var(--pi);
+.heroport-blacktag{
+    background-color: var(--white);
     border-radius: 4px;
     line-height: 1.5;
     font-size: 16px;
@@ -17,21 +18,19 @@
 }
 
 /*portfolio LOP(list of products) */
-.product-tag{
-    color: var(--pit);
+.lop-tag{
+    color: var(--grey);
      font-size: 16px;
      font-weight: 400;
      line-height: 1.88;
      letter-spacing: 0.03em;
-     word-wrap: break-word
 }
 
-.product-slog{
-    color: var(--hd);
+.lop-slog{
+    color: var(--true-black);
      font-size: 18px;
      font-weight: 700;
      line-height: 2;
      letter-spacing: 0.06em;
-     word-wrap: break-word
 }
 /* portfolio Basement */

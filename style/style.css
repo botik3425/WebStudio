@@ -1,155 +1,66 @@
-/*index Navigation */
-.logo-blue{
-    color: var(--turip);
-     font-size: 26px;
-     font-family: Raleway;
-     font-weight: 700;
-     letter-spacing: 0.03em;
-     word-wrap: break-word
-}
-
-.logo-black{
-    color: var(--hd);
-font-size: 26px;
-font-family: Raleway;
-font-weight: 700;
-letter-spacing: 0.03em;
-word-wrap: break-word
-}
-
-.item-page{
-    color: var(--hd);
- font-weight: 500;
- letter-spacing: 0.02em;
- word-wrap: break-word
-}
-
-.item-tel,.item-email{
-    color: var(--pit);
-font-weight: 500;
-letter-spacing: 0.02em;
-word-wrap: break-word
-}
-
-.item-tel:hover{
-    color: var(--turip);
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    word-wrap: break-word
-}
-
-.item-email:hover{
-    color: var(--turip);
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    word-wrap: break-word
-}
-
-.item-page:hover{
-    color: var(--turip);
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    word-wrap: break-word
-}
 /* index Hero */
 .heroindex-whiteslog{
-    color: var(--in);
+    color: var(--true-white);
      font-size: 44px;
      font-weight: 900;
      text-transform: uppercase;
      line-height: 1.36;
      letter-spacing: 0.06em;
-     word-wrap: break-word
+     text-align: center;
 }
 
 .heroindex-button{
-    background-color: var(--turip);
-    color: var(--in);
+    background-color: var(--blue);
+    color: var(--true-white);
  font-size: 16px;
  font-weight: 700;
  line-height: 1.88;
  letter-spacing: 0.06em;
- word-wrap: break-word
+ cursor: pointer;
 }
 
-.center-heroindex{
-    background-color: var(--pirut);
+.heroindex{
+    background-color: var(--black);
 }
 /*index Pluses */
-.item-greytext{
-    color: var(--pit);
+.pluses-greytext{
+    color: var(--grey);
      font-weight: 400;
      line-height: 1.71;
      letter-spacing: 0.03em;
-     word-wrap: break-word
 }
 
-.item-blackslog{
-    color: var(--hd);
+.pluses-blackslog{
+    color: var(--true-black);
      font-weight: 700;
      text-transform: uppercase;
      letter-spacing: 0.03em;
-     word-wrap: break-word
 }
 /*index WWD(what we do) */
 .wwd-slog{
-    color: var(--hd);
+    color: var(--true-black);
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.03em;
-    word-wrap: break-word
 }
 /*index Our team */
 .ourteam-slog{
-    color: var(--hd);
+    color: var(--true-black);
      font-size: 36px;
      font-weight: 700;
      letter-spacing: 0.03em;
-     word-wrap: break-word
 }
 
-.item-slog{
-    color: var(--hd);
+.ourteam-name{
+    color: var(--true-black);
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.03em;
-    word-wrap: break-word
 }
 
-.item-text{
-    color: var(--pit);
+.ourteam-text{
+    color: var(--grey);
     font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.03em;
-word-wrap: break-word;
-}
-/*index Basement */
-.logo-white{
-    color: var(--in);
-font-size: 26px;
-font-family: Raleway;
-font-weight: 700;
-letter-spacing: 0.03em;
-word-wrap: break-word
-}
-
-.item-adress{
-    color: var(--in);
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    word-wrap: break-word;
-    font-style: normal;
-}
-
-.all-basement{
-    background-color: var(--pirut);
-}
-
-.item-tele,.item-mail{
-    color: var(--tip);
-     font-weight: 400;
-     line-height: 1.71;
-     letter-spacing: 0.03em;
-     word-wrap: break-word
 }
