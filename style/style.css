@@ -1,16 +1,3 @@
-.all{
-    font-family: Roboto;
-}
-
-:root {
-    --turip: #2196F3;
-    --pi: #F5F4FA;
-    --in: #FFFFFF;
-    --pirut: #2F303A;
-    --tip: #FFFFFF99;
-    --pit: #757575;
-    --hd: #212121
-}
 /*index Navigation */
 .logo-blue{
     color: var(--turip);
