@@ -2,6 +2,15 @@
     font-family: Roboto;
 }
 
+:root {
+    --turip: #2196F3;
+    --pi: #F5F4FA;
+    --in: #FFFFFF;
+    --pirut: #2F303A;
+    --tip: #FFFFFF99;
+    --pit: #757575;
+    --hd: #212121
+}
 /*index Navigation */
 .logo-blue{
     color: var(--turip);
@@ -165,51 +174,4 @@ word-wrap: break-word
      line-height: 1.71;
      letter-spacing: 0.42px;
      word-wrap: break-word
-}
-/* portfolio Hero */
-.item-whitetag{
-    background-color:var(--turip);
-    color: var(--in);
-    border-radius: 4px;
-    font-size: 16px;
-    line-height: 1.5;
-    text-align: center;
-}
-
-.item-blacktag{
-    background-color: var(--pi);
-    border-radius: 4px;
-    line-height: 1.5;
-    font-size: 16px;
-    text-align: center;
-}
-
-/*portfolio LOP(list of products) */
-.product-tag{
-    color: var(--pit);
-     font-size: 16px;
-     font-weight: 400;
-     line-height: 1.88;
-     letter-spacing: 0.48px;
-     word-wrap: break-word
-}
-
-.product-slog{
-    color: var(--hd);
-     font-size: 18px;
-     font-weight: 700;
-     line-height: 2;
-     letter-spacing: 1.08px;
-     word-wrap: break-word
-}
-/* portfolio Basement */
-
-:root {
-    --turip: #2196F3;
-    --pi: #F5F4FA;
-    --in: #FFFFFF;
-    --pirut: #2F303A;
-    --tip: #FFFFFF99;
-    --pit: #757575;
-    --hd: #212121
 }
