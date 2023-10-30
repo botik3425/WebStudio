@@ -1,6 +1,6 @@
 /* index Hero */
 .heroindex-whiteslog{
-    color: var(--true-white);
+    color: var(--snow);
      font-size: 44px;
      font-weight: 900;
      text-transform: uppercase;
@@ -10,8 +10,8 @@
 }
 
 .heroindex-button{
-    background-color: var(--blue);
-    color: var(--true-white);
+    background-color: var(--sky);
+    color: var(--snow);
  font-size: 16px;
  font-weight: 700;
  line-height: 1.88;
@@ -20,46 +20,46 @@
 }
 
 .heroindex{
-    background-color: var(--black);
+    background-color: var(--earth);
 }
 /*index Pluses */
 .pluses-greytext{
-    color: var(--grey);
+    color: var(--stone);
      font-weight: 400;
      line-height: 1.71;
      letter-spacing: 0.03em;
 }
 
 .pluses-blackslog{
-    color: var(--true-black);
+    color: var(--asfalt);
      font-weight: 700;
      text-transform: uppercase;
      letter-spacing: 0.03em;
 }
 /*index WWD(what we do) */
 .wwd-slog{
-    color: var(--true-black);
+    color: var(--asfalt);
     font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.03em;
 }
 /*index Our team */
 .ourteam-slog{
-    color: var(--true-black);
+    color: var(--asfalt);
      font-size: 36px;
      font-weight: 700;
      letter-spacing: 0.03em;
 }
 
 .ourteam-name{
-    color: var(--true-black);
+    color: var(--asfalt);
     font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.03em;
 }
 
 .ourteam-text{
-    color: var(--grey);
+    color: var(--stone);
     font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.03em;

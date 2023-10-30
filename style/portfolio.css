@@ -1,7 +1,7 @@
 /* portfolio Hero */
 .heroport-blacktag:hover{
-    background-color:var(--blue);
-    color: var(--true-white);
+    background-color:var(--sky);
+    color: var(--snow);
     border-radius: 4px;
     font-size: 16px;
     line-height: 1.5;
@@ -10,7 +10,7 @@
 }
 
 .heroport-blacktag{
-    background-color: var(--white);
+    background-color: var(--cloud);
     border-radius: 4px;
     line-height: 1.5;
     font-size: 16px;
@@ -19,7 +19,7 @@
 
 /*portfolio LOP(list of products) */
 .lop-tag{
-    color: var(--grey);
+    color: var(--stone);
      font-size: 16px;
      font-weight: 400;
      line-height: 1.88;
@@ -27,7 +27,7 @@
 }
 
 .lop-slog{
-    color: var(--true-black);
+    color: var(--asfalt);
      font-size: 18px;
      font-weight: 700;
      line-height: 2;
