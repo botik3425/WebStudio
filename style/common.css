@@ -66,6 +66,9 @@ word-wrap: break-word
     letter-spacing: 0.02em;
     word-wrap: break-word
 }
+.head-item,.head-list{
+    display: inline-block;
+}
 /* Basement */
 .basement-logobluepart{
     color: var(--for-blue-parts);
@@ -100,4 +103,7 @@ letter-spacing: 0.03em;
      font-weight: 400;
      line-height: 1.71;
      letter-spacing: 0.03em;
+}
+.basement-list{
+    margin-bottom: 0px;
 }
