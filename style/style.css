@@ -29,8 +29,6 @@
      font-weight: 400;
      line-height: 1.71;
      letter-spacing: 0.03em;
-     width: 270px;
-     height: 72px;
 }
 
 .pluses-blackslog1{
@@ -38,7 +36,6 @@
      font-weight: 700;
      text-transform: uppercase;
      letter-spacing: 0.03em;
-     width: 270px;
 }
 
 .pluses-greytext2{
@@ -46,21 +43,12 @@
      font-weight: 400;
      line-height: 1.71;
      letter-spacing: 0.03em;
-     width: 250px;
-     height: 72px;
-     margin-bottom: 20px;
 }
 .pluses-greytext3{
     color: var(--for-grey-parts);
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    width: 240px;
-    height: 72px;
-    margin-bottom: 20px;
-}
-.pluses-item{
-    display:inline-block;
 }
 /*index WWD(what we do) */
 .wwd-slog{
@@ -69,13 +57,6 @@
     font-weight: 700;
     letter-spacing: 0.03em;
     text-align: center;
-}
-.wwd-item{
-    display:inline-block;
-}
-.wwd-photo{
-    height: 294px;
-    width: 370px;
 }
 /*index Our team */
 .ourteam-slog{
@@ -98,11 +79,4 @@
     font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.03em;
-}
-.ourteam-item{
-    display:inline-block;
-}
-.ourteam-photo{
-    height: 260px;
-    width: 270px;
 }
