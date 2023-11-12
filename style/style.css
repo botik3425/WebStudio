@@ -24,32 +24,20 @@
     background-color: var(--for-black-parts);
 }
 /*index Pluses */
-.pluses-greytext1{
+.pluses-greytext{
     color: var(--for-grey-parts);
      font-weight: 400;
      line-height: 1.71;
      letter-spacing: 0.03em;
 }
 
-.pluses-blackslog1{
+.pluses-blackslog{
     color: var(--for-true-black-parts);
      font-weight: 700;
      text-transform: uppercase;
      letter-spacing: 0.03em;
 }
 
-.pluses-greytext2{
-    color: var(--for-grey-parts);
-     font-weight: 400;
-     line-height: 1.71;
-     letter-spacing: 0.03em;
-}
-.pluses-greytext3{
-    color: var(--for-grey-parts);
-    font-weight: 400;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-}
 /*index WWD(what we do) */
 .wwd-slog{
     color: var(--for-true-black-parts);
