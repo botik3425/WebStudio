@@ -22,8 +22,14 @@
 
 .heroindex{
     background-color: var(--for-black-parts);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 /*index Pluses */
+.pluses{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .pluses-greytext{
     color: var(--for-grey-parts);
      font-weight: 400;
@@ -39,6 +45,9 @@
 }
 
 /*index WWD(what we do) */
+.wwd{
+    padding-bottom: 94px;
+}
 .wwd-slog{
     color: var(--for-true-black-parts);
     font-size: 36px;
@@ -47,6 +56,10 @@
     text-align: center;
 }
 /*index Our team */
+.ourteam{
+    padding-bottom: 94px;
+    background-color: var(--for-white-parts);
+}
 .ourteam-slog{
     color: var(--for-true-black-parts);
      font-size: 36px;
