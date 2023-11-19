@@ -3,6 +3,7 @@
     width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
+    box-sizing: content-box;
 
 }
 
@@ -22,6 +23,11 @@
 }
 
 /* Navigation */
+.head{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
+
 .head-logobluepart{
     color: var(--for-blue-parts);
      font-size: 26px;
@@ -75,6 +81,10 @@ word-wrap: break-word
     word-wrap: break-word
 }
 /* Basement */
+.basement{
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
 .basement-logobluepart{
     color: var(--for-blue-parts);
     font-size: 26px;
