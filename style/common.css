@@ -1,3 +1,11 @@
+.container{
+    outline: solid red 2px;
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
 .all{
     font-family: Roboto;
     font-size: 14px;

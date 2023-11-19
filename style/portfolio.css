@@ -1,4 +1,9 @@
 /* portfolio Hero */
+.heroport{
+    padding-top: 94px;
+    padding-bottom: 50px;
+}
+
 .heroport-blacktag:hover{
     background-color:var(--for-blue-parts);
     color: var(--for-true-white-parts);
@@ -18,6 +23,9 @@
 }
 
 /*portfolio LOP(list of products) */
+.lop{
+    padding-bottom: 94px;
+}
 .lop-tag{
     color: var(--for-grey-parts);
      font-size: 16px;
