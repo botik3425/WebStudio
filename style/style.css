@@ -43,7 +43,10 @@
      text-transform: uppercase;
      letter-spacing: 0.03em;
 }
-
+.pluses-list,.pluses-item{
+    display: flex;
+    flex-wrap: wrap;
+}
 /*index WWD(what we do) */
 .wwd{
     padding-bottom: 94px;
@@ -54,6 +57,10 @@
     font-weight: 700;
     letter-spacing: 0.03em;
     text-align: center;
+}
+.wwd-list,.wwd-item{
+    display: flex;
+    flex-wrap: wrap;
 }
 /*index Our team */
 .ourteam{
@@ -80,4 +87,8 @@
     font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.03em;
+}
+.ourteam-list,.ourteam-item{
+    display: flex;
+    flex-wrap: wrap;
 }
