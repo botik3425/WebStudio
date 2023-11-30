@@ -1,4 +1,9 @@
-.container {
+.head-container,
+.wwd-container,
+.ourteam-container,
+.hero-container,
+.pluses-container,
+.basement-container {
   outline: solid red 2px;
   width: 1200px;
   margin: 0 auto;
@@ -80,16 +85,38 @@
   word-wrap: break-word;
 }
 
-.head-item,
-.container,
-.head-list {
+.head-container,
+.head-list2,
+.head-list,
+.wwd-container,
+.ourteam-container,
+.hero-container,
+.pluses-container,
+.basement-container {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
 }
+
+.head-logo {
+  margin-right: 93px;
+}
+.head-list,
+.head-list2 {
+  column-gap: 50px;
+}
+.head-list2 {
+  justify-content: center;
+  align-items: end;
+  margin-left: 344px;
+}
+
 /* Basement */
 .basement {
   padding-bottom: 60px;
   padding-top: 60px;
+  background-color: var(--for-black-parts);
 }
 .basement-logobluepart {
   color: var(--for-blue-parts);
@@ -115,10 +142,12 @@
   font-style: normal;
 }
 
-.basement {
-  background-color: var(--for-black-parts);
+.basement-container{
+  flex-direction: column;
+  justify-content: start;
+  align-content: normal;
+  row-gap: 20px;
 }
-
 .basement-tele,
 .basement-mail {
   color: var(--for-light-grey-parts);
@@ -128,4 +157,7 @@
 }
 .basement-list {
   margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 9px;
 }
