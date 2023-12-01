@@ -2,6 +2,8 @@
 .hero-container {
     justify-content: center;
     row-gap: 30px;
+  flex-direction: column;
+  align-items: center;
 }
 .heroindex-whiteslog {
   color: var(--for-true-white-parts);
@@ -10,6 +12,8 @@
   text-transform: uppercase;
   line-height: 1.36;
   letter-spacing: 0.06em;
+  max-width: 696px;
+  text-align: center;
 }
 
 .heroindex-button {
@@ -21,8 +25,13 @@
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
+  width: 216px;
+  height: 50px;
 }
-
+.heroindex-button:active, .heroindex-button:focus{
+  outline: none;
+  border: none;
+}
 .heroindex {
   background-color: var(--for-black-parts);
   padding-top: 200px;
@@ -30,7 +39,6 @@
 }
 /*index Pluses */
 .pluses-container{
- 
     justify-content: space-between;
 }
 .pluses {
@@ -49,11 +57,13 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 .pluses-list{
     display: flex;
     column-gap: 30px;
 }
+
 /*index WWD(what we do) */
 .wwd-container{
     justify-content: center;
@@ -89,6 +99,7 @@
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 94px;
 }
 
 .ourteam-name {
@@ -96,6 +107,9 @@
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .ourteam-text {
@@ -103,6 +117,8 @@
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .ourteam-list{
     display: flex;
@@ -112,4 +128,8 @@
 .ourteam-item{
     background-color: var(--for-true-white-parts);
     border-radius: 4px;
+}
+.ourteam-photo{
+  width: 270px;
+  height: 260px;
 }
