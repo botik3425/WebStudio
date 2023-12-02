@@ -87,7 +87,7 @@
 /*index Our team */
 .ourteam-container{
     justify-content: center;
-    row-gap: 50px;
+    padding-top: 94px;
 }
 .ourteam {
   padding-bottom: 94px;
@@ -99,7 +99,7 @@
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 94px;
+  margin-bottom: 50px;
 }
 
 .ourteam-name {
