@@ -1,7 +1,7 @@
 /* index Hero */
 .hero-container {
-    justify-content: center;
-    row-gap: 30px;
+  justify-content: center;
+  row-gap: 30px;
   flex-direction: column;
   align-items: center;
 }
@@ -22,13 +22,14 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
-  letter-spacing: 0.06em; 
+  letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
   width: 216px;
   height: 50px;
 }
-.heroindex-button:active, .heroindex-button:focus{
+.heroindex-button:active,
+.heroindex-button:focus {
   outline: none;
   border: none;
 }
@@ -38,8 +39,8 @@
   padding-bottom: 200px;
 }
 /*index Pluses */
-.pluses-container{
-    justify-content: space-between;
+.pluses-container {
+  justify-content: space-between;
 }
 .pluses {
   padding-top: 94px;
@@ -59,15 +60,15 @@
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
-.pluses-list{
-    display: flex;
-    column-gap: 30px;
+.pluses-list {
+  display: flex;
+  column-gap: 30px;
 }
 
 /*index WWD(what we do) */
-.wwd-container{
-    justify-content: center;
-    row-gap: 50px;
+.wwd-container {
+  justify-content: center;
+  row-gap: 50px;
 }
 .wwd {
   padding-bottom: 94px;
@@ -85,9 +86,9 @@
   column-gap: 30px;
 }
 /*index Our team */
-.ourteam-container{
-    justify-content: center;
-    padding-top: 94px;
+.ourteam-container {
+  justify-content: center;
+  padding-top: 94px;
 }
 .ourteam {
   padding-bottom: 94px;
@@ -120,16 +121,16 @@
   text-align: center;
   margin-bottom: 30px;
 }
-.ourteam-list{
-    display: flex;
-    column-gap: 30px;
-    flex-wrap: wrap;
+.ourteam-list {
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
 }
-.ourteam-item{
-    background-color: var(--for-true-white-parts);
-    border-radius: 4px;
+.ourteam-item {
+  background-color: var(--for-true-white-parts);
+  border-radius: 4px;
 }
-.ourteam-photo{
+.ourteam-photo {
   width: 270px;
   height: 260px;
 }

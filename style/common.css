@@ -1,7 +1,9 @@
-.lop-container,.head-container,
+.lop-container,
+.head-container,
 .wwd-container,
 .ourteam-container,
-.hero-container,.heroport-container,
+.hero-container,
+.heroport-container,
 .pluses-container,
 .basement-container {
   outline: solid red 2px;
@@ -144,7 +146,7 @@
   font-style: normal;
 }
 
-.basement-container{
+.basement-container {
   flex-direction: column;
   justify-content: start;
   align-content: normal;

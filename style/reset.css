@@ -1,7 +1,26 @@
-a,main,body,address,img,li,ul,p,h1,h2,h3,h4,h5,h6,button,section,div,span,nav,html{
-    font-style: none;
-    margin: 0px;
-    text-decoration: none;
-    padding: 0px;
-    list-style: none;
+a,
+main,
+body,
+address,
+img,
+li,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+section,
+div,
+span,
+nav,
+html {
+  font-style: none;
+  margin: 0px;
+  text-decoration: none;
+  padding: 0px;
+  list-style: none;
 }
