@@ -15,16 +15,28 @@
 }
 
 .heroport-blacktag{
-    background-color: var(--for-light-grey-parts);
+    background-color: var(--for-white-parts);
     border-radius: 4px;
     line-height: 1.5;
     font-size: 16px;
     text-align: center;
+    padding: 6px 22px;
+    outline: none;
+    border: none;
 }
-
+.heroport-items{
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
 /*portfolio LOP(list of products) */
 .lop{
     padding-bottom: 94px;
+}
+.lop-products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 .lop-tag{
     color: var(--for-grey-parts);
@@ -40,4 +52,10 @@
      font-weight: 700;
      line-height: 2;
      letter-spacing: 0.06em;
+}
+.lop-product{
+    background-color: var(--for-true-white-parts);
+    border: 1px solid var(--for-strange-white-parts);
+    width: 370px;
+    height: 404px;
 }

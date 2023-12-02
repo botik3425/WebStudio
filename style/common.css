@@ -1,7 +1,7 @@
-.head-container,
+.lop-container,.head-container,
 .wwd-container,
 .ourteam-container,
-.hero-container,
+.hero-container,.heroport-container,
 .pluses-container,
 .basement-container {
   outline: solid red 2px;
@@ -23,12 +23,14 @@
   --for-light-grey-parts: #ffffff99;
   --for-grey-parts: #757575;
   --for-true-black-parts: #212121;
+  --for-strange-white-parts: #eeeeee;
 }
 
 /* Navigation */
 .head {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: var(--for-strange-white-parts) 1px solid;
 }
 
 .head-logobluepart {
