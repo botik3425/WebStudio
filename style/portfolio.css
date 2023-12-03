@@ -44,6 +44,7 @@
   font-weight: 400;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  margin-left: 24px;
 }
 
 .lop-slog {
@@ -52,11 +53,13 @@
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-left: 24px;
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .lop-product {
   background-color: var(--for-true-white-parts);
   border: 1px solid var(--for-strange-white-parts);
   width: 370px;
   height: 404px;
-  padding: 20px ;
 }
