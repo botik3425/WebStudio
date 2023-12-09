@@ -1,2 +1,2 @@
 # WebStudio 
-<img src:"./photos/img.png>
+<img src="./photos/img.png">
