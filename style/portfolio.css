@@ -60,7 +60,7 @@
 .lop-product {
   background-color: var(--for-true-white-parts);
   border: 1px solid var(--for-strange-white-parts);
-  width: 370px;
+  flex-basis: calc((100% - 2 * 30px) / 3);
   height: 404px;
 }
 .lop-text{
