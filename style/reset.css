@@ -20,3 +20,6 @@ img{
 li{
   list-style: none;
 }
+button{
+  cursor: pointer;
+}
