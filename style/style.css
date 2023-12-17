@@ -60,12 +60,33 @@
   text-transform: uppercase;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
+  margin-top: 30px;
 }
 .pluses-list {
   display: flex;
   column-gap: 30px;
 }
-
+.pluses-item::before{
+  display: block;
+  width: 270px;
+height: 120px;
+border-radius: 4px;
+background: var(--for-white-parts);
+padding: 25px 100px;
+display: block;
+}
+.pluses-item:first-child::before{
+  content: url(../photos/antenna1.png);
+}
+.pluses-item:nth-child(2)::before{
+  content: url(../photos/clock1.png);
+}
+.pluses-item:nth-child(3)::before{
+  content: url(../photos/diagram1.png);
+}
+.pluses-item:last-child:before{
+  content: url(../photos/astronaut1.png);
+}
 /*index WWD(what we do) */
 .wwd-container {
   justify-content: center;
