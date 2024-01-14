@@ -76,16 +76,16 @@ padding: 25px 100px;
 display: block;
 }
 .pluses-item:first-child::before{
-  content: url(../photos/antenna1.png);
+  content: url(../photos/antenna.png);
 }
 .pluses-item:nth-child(2)::before{
-  content: url(../photos/clock1.png);
+  content: url(../photos/clock.png);
 }
 .pluses-item:nth-child(3)::before{
-  content: url(../photos/diagram1.png);
+  content: url(../photos/diagram.png);
 }
 .pluses-item:last-child:before{
-  content: url(../photos/astronaut1.png);
+  content: url(../photos/astronaut.png);
 }
 /*index WWD(what we do) */
 .wwd-container {
