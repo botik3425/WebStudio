@@ -35,7 +35,7 @@
   border: none;
 }
 .heroindex {
-  background-image: url(../photos/heroindex-img.png);
+  background-image: url(../photos/heroindex-img.jpg);
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -76,16 +76,16 @@ padding: 25px 100px;
 display: block;
 }
 .pluses-item:first-child::before{
-  content: url(../photos/antenna.png);
+  content: url(../photos/antenna.jpg);
 }
 .pluses-item:nth-child(2)::before{
-  content: url(../photos/clock.png);
+  content: url(../photos/clock.jpg);
 }
 .pluses-item:nth-child(3)::before{
-  content: url(../photos/diagram.png);
+  content: url(../photos/diagram.jpg);
 }
 .pluses-item:last-child:before{
-  content: url(../photos/astronaut.png);
+  content: url(../photos/astronaut.jpg);
 }
 /*index WWD(what we do) */
 .wwd-container {
