@@ -6,7 +6,7 @@
 .heroport-container,
 .pluses-container,
 .basement-container {
-  outline: solid red 2px;
+  /* outline: solid red 2px; */
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;

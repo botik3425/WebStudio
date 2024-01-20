@@ -35,7 +35,7 @@
   border: none;
 }
 .heroindex {
-  background-color: var(--for-black-parts);
+  background-image: url(../photos/heroindex-img.png);
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -151,6 +151,7 @@ display: block;
   background-color: var(--for-true-white-parts);
   border-radius: 4px;
   padding-bottom: 30px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .ourteam-photo {
   width: 270px;
