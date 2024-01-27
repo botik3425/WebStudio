@@ -35,7 +35,11 @@
   border: none;
 }
 .heroindex {
-  background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../photos/heroindex-img.jpg);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../photos/heroindex-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 200px;
@@ -68,25 +72,25 @@
   display: flex;
   column-gap: 30px;
 }
-.pluses-item::before{
+.pluses-item::before {
   display: block;
   width: 270px;
-height: 120px;
-border-radius: 4px;
-background: var(--for-white-parts);
-padding: 25px 100px;
-display: block;
+  height: 120px;
+  border-radius: 4px;
+  background: var(--for-white-parts);
+  padding: 25px 100px;
+  display: block;
 }
-.pluses-item:first-child::before{
+.pluses-item:first-child::before {
   content: url(../photos/antenna.jpg);
 }
-.pluses-item:nth-child(2)::before{
+.pluses-item:nth-child(2)::before {
   content: url(../photos/clock.jpg);
 }
-.pluses-item:nth-child(3)::before{
+.pluses-item:nth-child(3)::before {
   content: url(../photos/diagram.jpg);
 }
-.pluses-item:last-child:before{
+.pluses-item:last-child:before {
   content: url(../photos/astronaut.jpg);
 }
 /*index WWD(what we do) */
@@ -153,7 +157,8 @@ display: block;
   background-color: var(--for-true-white-parts);
   border-radius: 4px;
   padding-bottom: 30px;
-  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 .ourteam-photo {
   width: 270px;
