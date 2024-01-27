@@ -39,7 +39,7 @@
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../photos/heroindex-img.jpg);
+    url(../photos/heroindex-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 200px;
@@ -82,16 +82,16 @@
   display: block;
 }
 .pluses-item:first-child::before {
-  content: url(../photos/antenna.jpg);
+  content: url(../photos/antenna.webp);
 }
 .pluses-item:nth-child(2)::before {
-  content: url(../photos/clock.jpg);
+  content: url(../photos/clock.webp);
 }
 .pluses-item:nth-child(3)::before {
-  content: url(../photos/diagram.jpg);
+  content: url(../photos/diagram.webp);
 }
 .pluses-item:last-child:before {
-  content: url(../photos/astronaut.jpg);
+  content: url(../photos/astronaut.webp);
 }
 /*index WWD(what we do) */
 .wwd-container {
