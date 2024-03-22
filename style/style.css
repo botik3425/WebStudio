@@ -121,24 +121,29 @@ background-color: var(--for-white-parts);
 .ourteam-icons{
   padding: 0px 32px;
   display: flex;
+  column-gap: 10px;
 }
 
 .ourteam-icon{
-  width: 44px;
-height: 44px;
+  width: 20px;
+height: 20px;
 fill: #AFB1B8;
 cursor: pointer;
-padding: 12px;
+/* padding: 12px; */
 }
 
 .ourteam-icon-container{
   border-radius: 23px;
   width: 44px;
   height: 44px;
+  padding: 12px;
 }
 
-.ourteam-icon:hover{
+.ourteam-icon-container:hover{
   background-color: #2196F3;
+}
+
+.ourteam-icon-container:hover .ourteam-icon{
   fill: white;
 }
 
@@ -175,4 +180,49 @@ padding: 12px;
 .ourteam-photo {
   width: 270px;
   height: 260px;
+}
+
+/* Regular customers(regcustomers) */
+
+.regcustomers{
+  padding: 94px 0px;
+}
+
+.regcustomers-title{
+  color: #212121;
+  margin-bottom: 50px;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+
+.regcustomers-icons{
+  display: flex;
+  column-gap: 30px;
+}
+
+.regcustomers-icon-container{
+  width: 170px;
+  height: 92px;
+  border: #AFB1B8 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.regcustomers-icon{
+  width: 170px;
+  height: 92px;
+  fill: #AFB1B8;
+}
+
+.regcustomers-icon-container:hover .regcustomers-icon{
+  fill: #2196F3;
+}
+
+.regcustomers-icon-container:hover{
+  border: #2196F3 1px solid;
 }
