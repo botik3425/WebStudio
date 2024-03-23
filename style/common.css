@@ -83,7 +83,8 @@ height: 16px;
 fill: #757575;
 }
 
-.head-list2 .head-item{
+.head-email,
+.head-tel{
   display: flex;
   align-items: center;
 }
@@ -91,13 +92,18 @@ fill: #757575;
 .head-list2 .head-item:hover .head-icon-mail,
 .head-list2 .head-item:hover .head-icon-tel,
 .head-list2 .head-item:hover .head-tel,
-.head-list2 .head-item:hover .head-email{
+.head-list2 .head-item:hover .head-email,
+ .head-email:focus .head-icon-mail,
+ .head-tel:focus .head-icon-tel,
+ .head-tel:focus,
+ .head-email:focus{
   fill: #2196f3;
   color: #2196f3;
   cursor: pointer;
 }
 
-.head-page:hover {
+.head-page:hover,
+.head-page:focus {
   color: var(--for-blue-parts);
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -213,15 +219,17 @@ text-transform: uppercase;
   fill: white;
 }
 
-.basement-icon-item{
+.basement-icon-link{
   width: 44px;
   height: 44px;
   padding: 12px;
   background-color: rgba(255, 255, 255, 0.10);
   border-radius: 23px;
   cursor: pointer;
+  display: block;
 }
 
-.basement-icon-item:hover{
+.basement-icon-link:hover,
+.basement-icon-link:focus{
   background-color: #2196f3;
 }
