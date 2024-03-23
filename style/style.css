@@ -29,11 +29,19 @@
   outline: none;
   border: none;
 }
+
+.heroindex-button:focus,
+.heroindex-button:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px;
+  background-color: rgb(17, 91, 152);
+}
+
 .heroindex-button:active,
 .heroindex-button:focus {
   outline: none;
   border: none;
 }
+
 .heroindex {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -73,11 +81,11 @@
   column-gap: 30px;
 }
 
-.pluses-icon{
+.pluses-icon {
   width: 270px;
   height: 120px;
-padding: 25px 100px;
-background-color: var(--for-white-parts);
+  padding: 25px 100px;
+  background-color: var(--for-white-parts);
 }
 
 /*index WWD(what we do) */
@@ -118,21 +126,21 @@ background-color: var(--for-white-parts);
   margin-bottom: 50px;
 }
 
-.ourteam-icons{
+.ourteam-icons {
   padding: 0px 32px;
   display: flex;
   column-gap: 10px;
 }
 
-.ourteam-icon{
+.ourteam-icon {
   width: 20px;
-height: 20px;
-fill: #AFB1B8;
-cursor: pointer;
-/* padding: 12px; */
+  height: 20px;
+  fill: #afb1b8;
+  cursor: pointer;
+  /* padding: 12px; */
 }
 
-.ourteam-icon-link{
+.ourteam-icon-link {
   border-radius: 23px;
   width: 44px;
   height: 44px;
@@ -140,12 +148,12 @@ cursor: pointer;
 }
 
 .ourteam-icon-link:hover,
-.ourteam-icon-link:focus{
-  background-color: #2196F3;
+.ourteam-icon-link:focus {
+  background-color: #2196f3;
 }
 
 .ourteam-icon-link:hover .ourteam-icon,
-.ourteam-icon-link:focus .ourteam-icon{
+.ourteam-icon-link:focus .ourteam-icon {
   fill: white;
 }
 
@@ -186,47 +194,47 @@ cursor: pointer;
 
 /* Regular customers(regcustomers) */
 
-.regcustomers{
+.regcustomers {
   padding: 94px 0px;
 }
 
-.regcustomers-title{
+.regcustomers-title {
   color: #212121;
   margin-bottom: 50px;
-text-align: center;
-font-family: Roboto;
-font-size: 36px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 1.08px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.08px;
 }
 
-.regcustomers-icons{
+.regcustomers-icons {
   display: flex;
   column-gap: 30px;
 }
 
-.regcustomers-icon-link{
+.regcustomers-icon-link {
   width: 170px;
   height: 92px;
-  border: #AFB1B8 1px solid;
+  border: #afb1b8 1px solid;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.regcustomers-icon{
+.regcustomers-icon {
   width: 170px;
   height: 92px;
-  fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 .regcustomers-icon-link:hover .regcustomers-icon,
-.regcustomers-icon-link:focus .regcustomers-icon{
-  fill: #2196F3;
+.regcustomers-icon-link:focus .regcustomers-icon {
+  fill: #2196f3;
 }
 
 .regcustomers-icon-link:hover,
-.regcustomers-icon-link:focus{
-  border: #2196F3 1px solid;
+.regcustomers-icon-link:focus {
+  border: #2196f3 1px solid;
 }
