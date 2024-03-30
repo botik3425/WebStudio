@@ -30,10 +30,18 @@
 }
 
 /* Navigation */
+
+.center{
+    padding-top: 80.5px;
+}
+
 .head {
   padding-top: 24px;
   padding-bottom: 25px;
   border: var(--for-strange-white-parts) 1px solid;
+  position: fixed;
+    background-color: white;
+    width: 100%;
 }
 
 .head-logobluepart {
@@ -185,6 +193,12 @@ fill: #757575;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
+.basement-tele:hover,
+.basement-mail:hover{
+  color: #2196f3;
+}
+
 .basement-list {
   margin-bottom: 0px;
   display: flex;
