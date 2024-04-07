@@ -2,7 +2,7 @@
 .heroport {
   padding-top: 94px;
   padding-bottom: 50px;
-    padding-top: 80.5px;
+  padding-top: 80.5px;
 }
 
 .heroport-blacktag:hover,
@@ -13,7 +13,8 @@
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .heroport-blacktag {
@@ -46,7 +47,6 @@
   font-weight: 400;
   line-height: 1.88;
   letter-spacing: 0.03em;
-
 }
 
 .lop-slog {
@@ -67,19 +67,19 @@
   padding-bottom: 20px;
 }
 
-.lop-card-container{
+.lop-card-container {
   height: 404px;
   display: block;
 }
 
-.lop-card-container:hover, 
-.lop-card-container:focus{
+.lop-card-container:hover,
+.lop-card-container:focus {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
-.lop-text{
+.lop-text {
   padding-left: 24px;
 }
 
-.lop-rad-container{
+.lop-rad-container {
   display: block;
 }

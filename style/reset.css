@@ -5,29 +5,43 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
   margin: 0px;
   padding: 0px;
 }
-a{
+a {
   text-decoration: none;
 }
-img{
+img {
   display: block;
   width: 100%;
   max-width: 100%;
 }
-li{
+li {
   list-style: none;
 }
-button{
+button {
   cursor: pointer;
 }
 
-a:focus{
+a:focus {
   outline: none;
 }
 
-button:focus{
+input {
+  padding: 0;
+}
+
+input:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button {
+  padding: 0;
+  border: none;
   outline: none;
 }

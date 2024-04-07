@@ -31,8 +31,8 @@
 
 /* Navigation */
 
-.center{
-    padding-top: 80.5px;
+.center {
+  padding-top: 80.5px;
 }
 
 .head {
@@ -40,8 +40,8 @@
   padding-bottom: 25px;
   border: var(--for-strange-white-parts) 1px solid;
   position: fixed;
-    background-color: white;
-    width: 100%;
+  background-color: white;
+  width: 100%;
 }
 
 .head-logobluepart {
@@ -77,22 +77,22 @@
   word-wrap: break-word;
 }
 
-.head-icon-mail{
+.head-icon-mail {
   width: 16px;
-height: 12px;
-margin-right: 10px;
-fill: #757575;
+  height: 12px;
+  margin-right: 10px;
+  fill: #757575;
 }
 
-.head-icon-tel{
+.head-icon-tel {
   margin-right: 10px;
   width: 10px;
-height: 16px;
-fill: #757575;
+  height: 16px;
+  fill: #757575;
 }
 
 .head-email,
-.head-tel{
+.head-tel {
   display: flex;
   align-items: center;
 }
@@ -101,10 +101,10 @@ fill: #757575;
 .head-list2 .head-item:hover .head-icon-tel,
 .head-list2 .head-item:hover .head-tel,
 .head-list2 .head-item:hover .head-email,
- .head-email:focus .head-icon-mail,
- .head-tel:focus .head-icon-tel,
- .head-tel:focus,
- .head-email:focus{
+.head-email:focus .head-icon-mail,
+.head-tel:focus .head-icon-tel,
+.head-tel:focus,
+.head-email:focus {
   fill: #2196f3;
   color: #2196f3;
   cursor: pointer;
@@ -149,7 +149,7 @@ fill: #757575;
   background-color: var(--for-black-parts);
 }
 
-.basement-logo{
+.basement-logo {
   margin-bottom: 20px;
   display: block;
 }
@@ -195,7 +195,7 @@ fill: #757575;
 }
 
 .basement-tele:hover,
-.basement-mail:hover{
+.basement-mail:hover {
   color: #2196f3;
 }
 
@@ -206,44 +206,117 @@ fill: #757575;
   row-gap: 9px;
 }
 
-.basement-icons{
+.basement-icons {
   margin-left: 70px;
 }
 
-.basement-icon-list{
+.basement-icon-list {
   display: flex;
   column-gap: 10px;
 }
 
-.basement-icon-title{
-  color: #FFF;
-margin-bottom: 20px;
-font-family: Roboto;
-font-size: 14px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-letter-spacing: 0.42px;
-text-transform: uppercase;
+.basement-icon-title {
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
 
-.basement-icon{
+.basement-icon {
   width: 20px;
   height: 20px;
   fill: white;
 }
 
-.basement-icon-link{
+.basement-icon-link {
   width: 44px;
   height: 44px;
   padding: 12px;
-  background-color: rgba(255, 255, 255, 0.10);
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 23px;
   cursor: pointer;
   display: block;
 }
 
 .basement-icon-link:hover,
-.basement-icon-link:focus{
+.basement-icon-link:focus {
   background-color: #2196f3;
+}
+
+.basement-form {
+  margin-left: 93px;
+  width: 570px;
+}
+
+.basement-form-container {
+  display: flex;
+}
+
+.basement-form-title {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.basement-form-input {
+  width: 358px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  margin-right: 12px;
+  padding-left: 16px;
+  color: #fff;
+}
+
+.basement-form-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.48px;
+}
+
+.basement-form-button {
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  text-align: left;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+  padding: 10px 28px 10px 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basement-form-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
