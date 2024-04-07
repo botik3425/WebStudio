@@ -352,6 +352,10 @@
   padding-left: 42px;
 }
 
+.modal-input:focus{
+  border-color: #2196f3;
+}
+
 .modal-item:last-child .modal-input {
   width: 448px;
   height: 120px;
@@ -374,6 +378,10 @@
   height: 18px;
   top: 29px;
   left: 12px;
+}
+
+.modal-item:focus-within{
+  fill: #2196f3;
 }
 
 .modal-conditions {
