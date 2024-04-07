@@ -388,6 +388,11 @@
   fill: #2196f3;
 }
 
+.modal-item:hover .modal-icon, .modal-item:hover .modal-input{
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+
 .modal-conditions {
   display: flex;
   margin-top: 20px;
