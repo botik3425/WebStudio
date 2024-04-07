@@ -412,40 +412,41 @@
           <h1 class="modal-title">Залиште свої дані, ми вам передзвонимо</h1>
           <ul class="modal-list">
             <li class="modal-item">
-              <label for="" class="modal-text">Ім'я</label>
+              <label for="name" class="modal-text">Ім'я</label>
               <div class="modal-input-container">
-                <input type="text" name="" class="modal-input" required/>
+                <input type="text" name="" id="name" class="modal-input" required/>
                 <svg class="modal-icon">
                   <use href="./photos/symbol-defs.svg#icon-name"></use>
                 </svg>
               </div>
             </li>
             <li class="modal-item">
-              <label for="" class="modal-text">Телефон</label>
+              <label for="tel" class="modal-text">Телефон</label>
               <div class="modal-input-container">
-                <input type="tel" name="" class="modal-input" required/>
+                <input type="tel" name="" id="tel" class="modal-input" required/>
                 <svg class="modal-icon">
                   <use href="./photos/symbol-defs.svg#icon-telephone"></use>
                 </svg>
               </div>
             </li>
             <li class="modal-item">
-              <label for="" class="modal-text">Пошта</label>
+              <label for="email" class="modal-text">Пошта</label>
               <div class="modal-input-container">
-                <input type="email" name="" class="modal-input" required/>
+                <input type="email" name="" id="email" class="modal-input" required/>
                 <svg class="modal-icon">
                   <use href="./photos/symbol-defs.svg#icon-email"></use>
                 </svg>
               </div>
             </li>
             <li class="modal-item">
-              <label for="" class="modal-text">Коментар</label>
+              <label for="commentar" class="modal-text">Коментар</label>
               <input
                 type="text"
                 name=""
                 class="modal-input"
                 placeholder="Введіть текст"
                 required
+                id="commentar"
               />
             </li>
           </ul>
@@ -453,12 +454,12 @@
             <input
               type="checkbox"
               name=""
-              id=""
+              id="checkbox"
               class="modal-conditions-checkbox"
             />
-            <p class="modal-conditions-text">
+            <label class="modal-conditions-text" for="checkbox">
               Погоджуюся з розсилкою та приймаю
-            </p>
+            </label>
             <a href="#" class="modal-conditions-link">Умови договору</a>
           </div>
           <button type="submit" class="modal-button" data-modal-close>

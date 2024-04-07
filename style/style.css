@@ -316,6 +316,10 @@
   align-items: center;
 }
 
+.modal-close-icon:hover{
+  fill: #2196f3;
+}
+
 .modal-close-icon {
   width: 18px;
   height: 18px;
