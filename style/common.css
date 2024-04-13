@@ -53,6 +53,13 @@
   word-wrap: break-word;
 }
 
+.head-logo{
+  background: linear-gradient(90deg, #2196f3, #212121);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-size: 144px 31.2px;
+}
+
 .head-logoblackpart {
   color: var(--for-true-black-parts);
   font-size: 26px;
@@ -152,6 +159,11 @@
 .basement-logo {
   margin-bottom: 20px;
   display: block;
+  background: linear-gradient(90deg, #2196f3, #fff);
+-webkit-background-clip: text;
+background-size: 144px 31.2px;
+-webkit-text-fill-color:
+transparent;
 }
 
 .basement-logobluepart {
