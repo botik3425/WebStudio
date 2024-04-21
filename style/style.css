@@ -29,6 +29,8 @@
   height: 50px;
   outline: none;
   border: none;
+  transition-property: box-shadow, background-color;
+  transition-duration: 1s;
 }
 
 .heroindex-button:focus,
@@ -65,6 +67,7 @@
 
 .head-item:first-child .head-page:after{
   opacity: 1;
+  transform: scaleX(1);
 }
 
 .pluses-greytext {
@@ -173,6 +176,8 @@
   width: 44px;
   height: 44px;
   padding: 12px;
+  transition-property: background-color, fill;
+  transition-duration: 1s;
 }
 
 .ourteam-icon-link:hover,
@@ -250,12 +255,16 @@
   border: #afb1b8 1px solid;
   border-radius: 4px;
   cursor: pointer;
+  transition-property: border;
+  transition-duration: 1s;
 }
 
 .regcustomers-icon {
   width: 170px;
   height: 92px;
   fill: #afb1b8;
+  transition-property: fill;
+  transition-duration: 1s;
 }
 
 .regcustomers-icon-link:hover .regcustomers-icon,

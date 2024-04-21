@@ -1,6 +1,7 @@
 /* portfolio Hero */
 .head-item:nth-child(2) .head-page:after{
   opacity: 1;
+  transform: scaleX(1);
 }
 
 .heroport {
