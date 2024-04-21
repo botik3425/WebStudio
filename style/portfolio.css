@@ -1,4 +1,8 @@
 /* portfolio Hero */
+.head-item:nth-child(2) .head-page:after{
+  opacity: 1;
+}
+
 .heroport {
   padding-top: 94px;
   padding-bottom: 50px;

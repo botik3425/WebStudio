@@ -62,6 +62,11 @@
   padding-top: 94px;
   padding-bottom: 94px;
 }
+
+.head-item:first-child .head-page:after{
+  opacity: 1;
+}
+
 .pluses-greytext {
   color: var(--for-grey-parts);
   font-weight: 400;
