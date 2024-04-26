@@ -76,8 +76,9 @@ background-size: 144px 31.2px;
   font-weight: 500;
   letter-spacing: 0.02em;
   word-wrap: break-word;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
-  transition-duration: 0.5s;
+  transition-duration: 250ms;
 }
 
 .head-page::after{
@@ -90,8 +91,9 @@ background-size: 144px 31.2px;
   opacity: 0;
   position: absolute;
   top: 45px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: scaleX(0);
-  transition-duration: 0.5s;
+  transition-duration: 250ms;
   transition-property: transform;
 }
 
@@ -112,8 +114,9 @@ background-size: 144px 31.2px;
   font-weight: 500;
   letter-spacing: 0.02em;
   word-wrap: break-word;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: color;
-  transition-duration: 0.5s;
+  transition-duration: 250ms;
 }
 
 .head-icon-mail {
@@ -121,8 +124,9 @@ background-size: 144px 31.2px;
   height: 12px;
   margin-right: 10px;
   fill: #757575;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
-  transition-duration: 0.5s;
+  transition-duration: 250ms;
 }
 
 .head-icon-tel {
@@ -130,8 +134,9 @@ background-size: 144px 31.2px;
   width: 10px;
   height: 16px;
   fill: #757575;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
-  transition-duration: 0.5s;
+  transition-duration: 250ms;
 }
 
 .head-email,
@@ -240,6 +245,9 @@ transparent;
   font-weight: 400;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color;
+  transition-duration: 250ms;
 }
 
 .basement-tele:hover,
@@ -289,6 +297,9 @@ transparent;
   border-radius: 23px;
   cursor: pointer;
   display: block;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+  transition-duration: 250ms;
 }
 
 .basement-icon-link:hover,
@@ -359,6 +370,13 @@ transparent;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+}
+
+.basement-form-button:hover{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.8);
 }
 
 .basement-form-icon {
@@ -380,7 +398,8 @@ transparent;
   display: flex;
   align-items: center;
   padding-left: 10px;
-  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 250ms;
   transition-property: width;
 }
 

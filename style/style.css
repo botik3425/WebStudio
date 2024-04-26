@@ -29,8 +29,9 @@
   height: 50px;
   outline: none;
   border: none;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: box-shadow, background-color;
-  transition-duration: 1s;
+  transition-duration: 250ms;
 }
 
 .heroindex-button:focus,
@@ -176,8 +177,9 @@
   width: 44px;
   height: 44px;
   padding: 12px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: background-color, fill;
-  transition-duration: 1s;
+  transition-duration: 250ms;
 }
 
 .ourteam-icon-link:hover,
@@ -255,16 +257,18 @@
   border: #afb1b8 1px solid;
   border-radius: 4px;
   cursor: pointer;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
-  transition-duration: 1s;
+  transition-duration: 250ms;
 }
 
 .regcustomers-icon {
   width: 170px;
   height: 92px;
   fill: #afb1b8;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: fill;
-  transition-duration: 1s;
+  transition-duration: 250ms;
 }
 
 .regcustomers-icon-link:hover .regcustomers-icon,
