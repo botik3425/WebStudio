@@ -341,6 +341,10 @@
 .modal-close-icon {
   width: 18px;
   height: 18px;
+  fill: black;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill;
+  transition-duration: 250ms;
 }
 
 .modal-list {
@@ -372,6 +376,9 @@
   width: 448px;
   height: 40px;
   padding-left: 42px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+  transition-duration: 250ms;
 }
 
 .modal-input:focus{
@@ -397,9 +404,14 @@
 .modal-icon {
   position: absolute;
   width: 18px;
+  fill: black;
+  border-color: black;
   height: 18px;
   top: 29px;
   left: 12px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: fill, border-color;
+  transition-duration: 250ms;
 }
 
 .modal-item:focus-within{
@@ -450,7 +462,7 @@
 
 .modal-button {
   border-radius: 4px;
-  background: #2196f3;
+  background-color: #2196f3;
   width: 200px;
   height: 50px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -462,6 +474,14 @@
   font-weight: 700;
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: box-shadow, background-color;
+  transition-duration: 250ms;
+}
+
+.modal-button:hover{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.8);
+  background-color: #1768aa;
 }
 
 .modal-form {
