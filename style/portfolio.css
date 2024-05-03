@@ -98,8 +98,9 @@
 
 .overlay{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-property: background-color;
+  transition-property: transform;
   transition-duration: 250ms;
+  transform: scaleY(0);
 }
 
 .lop-card-container:hover .overlay, .lop-card-container:focus .overlay{
@@ -107,6 +108,8 @@
   width: 370px;
 height: 294px;
 position: absolute;
+transform: scaleY(1);
+transform-origin: bottom;
 }
 
 .lop-card-container:hover .overlay-text, .lop-card-container:focus .overlay-text{
