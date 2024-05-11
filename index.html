@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./style/reset.css" />
     <link rel="stylesheet" href="./style/common.css" />
     <link rel="stylesheet" href="./style/style.css" />
+  <link rel="stylesheet" href="./style/my-animations-library.css">
   </head>
   <body class="all">
     <!-- Navigation -->
@@ -62,7 +63,7 @@
     </header>
     <main class="center">
       <!-- Hero -->
-      <section class="heroindex">
+      <section class="heroindex" id="scroll">
         <div class="hero-container">
           <h1 class="heroindex-whiteslog">
             Ефективні рішення для вашого бізнесу
@@ -497,6 +498,11 @@
         </li>
       </ul>
     </div>
+    <a class="scroll-button" href="#scroll">
+      <svg class="scroll-button-icon">
+        <use href="./photos/symbol-defs.svg#arrow-up"></use>
+      </svg>
+    </a>
     <script src="./js/modal.js"></script>
   </body>
 </html>

@@ -1,5 +1,9 @@
 /* index Hero */
 
+.heroindex{
+  overflow: hidden;
+}
+
 .hero-container {
   justify-content: center;
   row-gap: 30px;
@@ -15,6 +19,8 @@
   letter-spacing: 0.06em;
   max-width: 696px;
   text-align: center;
+  animation-name: enter-from-left;
+  animation-duration: 1s;
 }
 
 .heroindex-button {
@@ -32,6 +38,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: box-shadow, background-color;
   transition-duration: 250ms;
+  animation-name: enter-from-right;
+  animation-duration: 1s;
 }
 
 .heroindex-button:focus,
@@ -64,6 +72,7 @@
 .pluses {
   padding-top: 94px;
   padding-bottom: 94px;
+  overflow: hidden;
 }
 
 .head-item:first-child .head-page:after{
@@ -98,6 +107,16 @@
   background-color: var(--for-white-parts);
 }
 
+.pluses-item:first-child, .pluses-item:nth-child(2){
+  animation-name: enter-from-left;
+  animation-duration: 1s;
+}
+
+.pluses-item:last-child, .pluses-item:nth-child(3){
+  animation-name: enter-from-right;
+  animation-duration: 1s;
+}
+
 /*index WWD(what we do) */
 .wwd-container {
   justify-content: center;
@@ -105,6 +124,7 @@
 }
 .wwd {
   padding-bottom: 94px;
+  overflow: hidden;
 }
 .wwd-slog {
   color: var(--for-true-black-parts);
@@ -112,6 +132,8 @@
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: center;
+  animation-name: enter-from-up;
+  animation-duration: 1s;
 }
 .wwd-list,
 .wwd-item {
@@ -122,6 +144,21 @@
 .wwd-item {
   position: relative;
   z-index: -1;
+}
+
+.wwd-item:first-child{
+  animation-name: enter-from-left;
+  animation-duration: 1s;
+}
+
+.wwd-item:nth-child(2){
+  animation-name: enter-from-down;
+  animation-duration: 1s;
+}
+
+.wwd-item:last-child{
+  animation-name: enter-from-right;
+  animation-duration: 1s;
 }
 
 .wwd-photo-text {
@@ -148,6 +185,7 @@
 .ourteam {
   padding-bottom: 94px;
   background-color: var(--for-white-parts);
+  overflow: hidden;
 }
 .ourteam-slog {
   color: var(--for-true-black-parts);
@@ -156,6 +194,8 @@
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
+    animation-name: enter-from-up;
+    animation-duration: 1s;
 }
 
 .ourteam-icons {
@@ -223,6 +263,16 @@
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
+.ourteam-item:first-child, .ourteam-item:nth-child(2){
+  animation-name: enter-from-left;
+  animation-duration: 1s;
+}
+
+.ourteam-item:last-child, .ourteam-item:nth-child(3){
+  animation-name: enter-from-right;
+  animation-duration: 1s;
+}
+
 .ourteam-photo {
   width: 270px;
   height: 260px;
@@ -232,6 +282,7 @@
 
 .regcustomers {
   padding: 94px 0px;
+  overflow: hidden;
 }
 
 .regcustomers-title {
@@ -244,6 +295,8 @@
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
+    animation-name: enter-from-up;
+    animation-duration: 1s;
 }
 
 .regcustomers-icons {
@@ -260,6 +313,16 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
   transition-duration: 250ms;
+}
+
+.regcustomers-icon-link:first-child, .regcustomers-icon-link:nth-child(2), .regcustomers-icon-link:nth-child(3){
+    animation-name: enter-from-left;
+    animation-duration: 1s;
+}
+
+.regcustomers-icon-link:last-child, .regcustomers-icon-link:nth-child(5), .regcustomers-icon-link:nth-child(4){
+  animation-name: enter-from-right;
+  animation-duration: 1s;
 }
 
 .regcustomers-icon {
